@@ -1,0 +1,45 @@
+/* 공통 */
+*{padding: 0; margin: 0;}
+ul{list-style: none;}
+.space{clear: both;}
+
+/* 헤더부분 */
+.logo{width: 100%; height: 80px; line-height: 78px; text-align: center; padding-top: 18px;padding-bottom: 18px;}
+.menubar{width: 100%; height: 50px; line-height: 50px; background-color: #d2060f;}
+.menu{width: 1089px; margin: 0 auto; color: #fff; text-align: center;}
+.menu>li{float: left; width: calc(100%/5);}
+.menu>li>a{color: #fff; text-decoration: none;}
+
+/* 메인이미지부분 */
+.mainimg{width: 100%; height: 508px; background-image: url(../images/mainimg.jpg); background-repeat: no-repeat; background-position: center center;}
+.sub_mainimg{width: 100%; height: 218px; background-image: url(../images/sub_main.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover;}
+
+/* 콘텐츠 */
+.inner{width: 1088px; margin: 0 auto;}
+.box1>.inner>h2{padding-top: 82px; text-align: center; }
+.box1_set>.list>p>span{color:#d2060f; }
+.box1_set{padding-top: 28px;}
+.list{float: left; width: calc(100%/4 - 3%); margin: 0 2%;}
+.list:nth-child(1){margin-left: 0;}
+.list:nth-child(4){margin-right: 0;}
+.list>div>img{width: 100%;}
+.list>h3{font-size: 15px; letter-spacing: -1px;}
+.list>p{font-size: 12px; color: #000;}
+.btn{width: 100%; height: 40px; background-color: #d2060f; text-align: center;  color: #fff; line-height: 40px; margin-top: 12px;} 
+
+
+.box2>.inner>ul>li{float: left; width: calc(100%/9); text-align: center; color: #000; line-height: 30px; }
+.box2>.inner>h2{padding-top: 82px; text-align: center; margin-bottom: 50px;}
+
+.box3{width: 100%; height: 335px; background-image: url(../images/img.jpg); background-repeat: no-repeat; background-position: center center; margin-top: 82px;}
+
+.sub_contents>.inner{text-align: center;}
+.sub_contents>.inner>img{padding: 50px 0;}
+
+/* 푸터부분 */
+.inner{width: 1088px; margin: 0 auto;}
+.footer{width: 100% ; height: 206px; background-color:#282828;}
+.footer_1{padding-top: 30px; float: left;}
+.footer_1>p{padding-top:20px; 
+color: #fff; font-size: 8pt;}
+.footer_2{float: right;}
